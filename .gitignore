@@ -1,0 +1,42 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate.d/
+
+# Kubernetes
+*.local.yaml
+*.dev.yaml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# Log files
+*.log

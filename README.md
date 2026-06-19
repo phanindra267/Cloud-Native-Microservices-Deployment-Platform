@@ -1,14 +1,37 @@
-# Cloud-Native Microservices Deployment Platform
+# 🚀 Cloud-Native Microservices Deployment Platform
 
-## Project Overview
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+[![Java](https://img.shields.io/badge/java-17-orange?style=flat-square&logo=openjdk)](https://openjdk.org/)
+[![Docker](https://img.shields.io/badge/docker-20+-blue?style=flat-square&logo=docker)](https://www.docker.com/)
+[![Kubernetes](https://img.shields.io/badge/kubernetes-1.x-blue?style=flat-square&logo=kubernetes)](https://kubernetes.io/)
+[![Terraform](https://img.shields.io/badge/terraform-1.x-purple?style=flat-square&logo=terraform)](https://www.terraform.io/)
+[![Jenkins](https://img.shields.io/badge/jenkins-2.x-red?style=flat-square&logo=jenkins)](https://www.jenkins.io/)
+[![GitHub Repo](https://img.shields.io/badge/github-repo-black?style=flat-square&logo=github)](https://github.com/phanindra267/Cloud-Native-Microservices-Deployment-Platform)
+
+---
+
+## ✨ Project Overview
 
 The Cloud-Native Microservices Deployment Platform is a backend-focused project developed to automate application deployment, infrastructure provisioning, and scalable service management using modern DevOps and backend engineering practices. The project demonstrates hands-on experience in backend development, microservices architecture, containerization, CI/CD automation, cloud-native deployment, and infrastructure management.
 
 This project was designed to simulate a real-world production deployment environment where multiple backend services are containerized, deployed, monitored, and managed efficiently.
 
+## 📁 Project Structure
+
+```
+Cloud-Native-Microservices-Deployment-Platform/
+├── terraform/          # Terraform IaC for infrastructure
+├── k8s/                # Kubernetes manifests
+├── jenkins/            # Jenkins CI/CD pipeline files
+├── services/
+│   ├── user-service/   # User management microservice
+│   └── deployment/     # Deployment automation service
+└── README.md
+```
+
 ---
 
-# Objectives
+# 🎯 Objectives
 
 * Develop scalable backend services using Java.
 * Implement microservices architecture for modular application deployment.
